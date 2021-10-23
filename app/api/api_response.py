@@ -46,7 +46,7 @@ class AddedDocuments(Serializable):
             "success": self.success
         }
 
-class ModifiedDocuments(Serializable):
+class DocumentChnage(Serializable):
 
     def __init__(self, success) -> None:
         self.success = success
@@ -56,7 +56,7 @@ class ModifiedDocuments(Serializable):
             "success": self.success
         }
 
-class GetStatistics(Serializable):
+class DemographicStatistics(Serializable):
     def __init__(self,response):
         self.response = response
 
