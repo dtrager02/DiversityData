@@ -46,7 +46,7 @@ class AddedDocuments(Serializable):
             "success": self.success
         }
 
-class DocumentChnage(Serializable):
+class DocumentChange(Serializable):
 
     def __init__(self, success) -> None:
         self.success = success
